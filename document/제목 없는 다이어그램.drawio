@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T09:39:25.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="938s8ab1wAZepJLSAdQr" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T09:40:04.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AWqJuDTWXQW0JCS6Asvg" version="21.1.4" type="github">
   <diagram name="페이지-1" id="gxklzMOEhJ284HbPfKui">
     <mxGraphModel dx="1114" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,13 +115,13 @@
           <mxGeometry x="440" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NrBgv50jh2lkLzNKUakg-26" value="인증 기능은 회원 로그인 유즈케이스 기능에 포함되어있다." style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="480" y="30" width="110" height="50" as="geometry" />
+          <mxGeometry x="800" y="10" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NrBgv50jh2lkLzNKUakg-28" value="확장 : 이 기능이 일어남으로써 일어날 수 있는 분기 중 하나 로그인 하면 실패할 수도 있다." style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="800" y="70" width="120" height="70" as="geometry" />
+          <mxGeometry x="810" y="70" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NrBgv50jh2lkLzNKUakg-31" value="게시판을 보려면 회원 로그인이 필수" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="420" y="200" width="110" height="50" as="geometry" />
+          <mxGeometry x="820" y="150" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NrBgv50jh2lkLzNKUakg-39" value="DB" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="830" y="240" width="120" height="90" as="geometry" />
