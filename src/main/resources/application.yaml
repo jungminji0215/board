@@ -1,0 +1,49 @@
+debug: false # 디버그 로그 활성화? 로그백을 통해서 로그를 찍을 수 있도록 되어있는데 그것이 디버그 로그를 찍을 수 있게
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  level:
+    com.jmj.board: debug # 루트 패키지
+    org.springframework.web.servlet: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/board
+    username: jmj
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    defer-datasource-initialization: true # 테스트용 데이터베이스 데이터를 생성할 수 있음 .sql 파일을 만들어서 사용
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 100 # n+1 ? ??? ? ?? ?? ? ??
+  h2:
+    console:
+      enabled: false
+  sql:
+    init:
+      mode: always
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: testdb
+#  datasource:
+#    url: jdbc:h2:mem:board;mode=mysql
+#    driver-class-name: org.h2.Driver
+#  sql:
+#    init:
+#      mode: always
+
+
